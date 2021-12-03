@@ -1,4 +1,4 @@
-import { CommonComponentProps } from '@/components/BusinessComps/types'
+import { CommonComponentProps } from '@/components/types'
 import { pick } from 'lodash-es'
 import { computed, StyleValue } from 'vue'
 
