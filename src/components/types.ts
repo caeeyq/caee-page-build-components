@@ -1,4 +1,6 @@
 import { mapValues } from 'lodash-es'
+import { ImageComponentProps } from './CImage/types'
+import { TextComponentProps } from './CText/types'
 
 export interface CommonComponentProps {
   // actions
@@ -62,3 +64,5 @@ export function transformObjToProps<T extends CommonComponentProps>(obj: T) {
     }
   })
 }
+
+export type AllComponentsProps = ImageComponentProps & TextComponentProps

@@ -1,6 +1,6 @@
 {
   "name": "@caee/caee-page-build-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/caee-page-build-components.umd.js",
   "module": "dist/caee-page-build-components.esm.js",
   "typings": "dist/index.d.ts",
